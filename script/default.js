@@ -47,4 +47,8 @@ home.addEventListener("click", () => {
   content.innerHTML = homePage
 })
 
+document.querySelector(".learn")
+  .addEventListener("click", () => {
+    content.innerHTML = GuideContent;
+  })
 
