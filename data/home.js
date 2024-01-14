@@ -1,6 +1,6 @@
 export const homePage = `
 <div class="promo">
-<img src="data/img/PROMOTING.png" alt="">
+<img class="promoImg" src="data/img/PROMOTING.png" alt="">
 <div class="textContainer">
   <p class="m">Mission</p>
   <p class="description">Encouraging parents to create a supportive environment where kids feel comfortable expressing themselves can help foster honesty and discourage the need for deception. Additionally, incorporating art as a means of self-expression can aid in emotional communication and understanding within the family.</p>

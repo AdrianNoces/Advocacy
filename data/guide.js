@@ -1,1 +1,3 @@
-export let GuideContent = "hihi";
+export let GuideContent = `
+    <div><<
+`;

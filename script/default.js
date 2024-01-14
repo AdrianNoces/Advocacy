@@ -2,7 +2,7 @@ import { GuideContent } from "../data/guide.js";
 import { homePage } from "../data/home.js";
 
 document.body.innerHTML = `
-<nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+<nav class="navbar navbar-expand-lg bg-body-tertiary" style="box-shadow: 2px 2px 20px hsl(0deg 0% 0% / 0.48); position: fixed; top: 0; left: 0; right: 0;" >
 <div class="container-fluid">
   <a class="navbar-brand" href="#" style="font-weight: bold;"><img style="width: 220px;" src="data/img/logo.png" alt=""></a>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

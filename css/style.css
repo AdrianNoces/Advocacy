@@ -1,3 +1,7 @@
+body {
+    padding: 120px 0 0 0;
+}
+
 img {
     width: 100%;
 }
@@ -42,7 +46,7 @@ img {
     border: none;
     padding: 10px 20px;
     background: #FF712F;
-    border-radius: 5px;
+    border-radius: 2rem;
     color: white;
 }
 
@@ -66,10 +70,15 @@ img {
     .m {
         font-size: 50px;
     }
-
+    
     .promo {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1.7fr 1fr;
         grid-auto-flow: dense;
+        padding: 70px;
+    }
+
+    .promoImg {
+        border-radius: 1rem;
     }
 
     .textContainer {
